@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.main-container {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+header { 
+	background-color: #333;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 0 3em 0;
+}
+
+.navigation-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2em;
+}
+
+.brand {
+	color: #fff;
+	font-size: 1.8rem;
+	font-family: sans-serif;
+}
+
+.navbar ul{
+	display: flex;
+	justify-content: flex-start;
+	list-style: none;
+}
+
+.navbar ul li.menu-item{
+	padding: 0.7rem;
+	background-color: #333;
+	margin-left: 5px;	
+}
+
+.navbar ul li.menu-item a{
+	font-size: 1em;
+	color: #fff;	
+	text-decoration: none;
+}
+
+.message-box {
+	width: 45%;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+.message-box .title {
+	color: #fff;
+	font-size: 1.6em;
+}
+
+.message-box .subtitle {
+	color: #fff;
+	font-size: 1em;
+	text-align: center;
+}
+
+.search-box {
+	width: 50%;
+	align-self: center;
+	display: flex;
+	justify-content: center;
+}
+
+.input {
+	width: 100%;
+	background-color: #444;
+	padding: 30px;
+	margin: 0;
+}
+
+main { 
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+.message-important {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: gray;
+	padding: 3rem;
+}
+.message-important h3 {
+	font-size: 1.6em;
+	color: #fff;
+}
+.promo-1 {
+	display: flex;
+	margin:0;
+}
+.promo-1 .image {
+	width: 40%;
+	background-color: orange;
+}
+.promo-1 .info-box-1 {
+	width: 60%;
+	padding: 1rem 2rem 1rem 4rem;
+	display: flex;
+	flex-direction: column;
+}
+.promo-1 .info-box-1 .content-box {
+	display: flex;
+	flex-direction: column;
+}
+.promo-1 .info-box-1 .content-box .title{
+	font-size: 1.6em;
+	color:lightblue;
+}
+.promo-1 .info-box-1 .content-box .description{
+	font-size: 1em;
+}
+.promo-1 .info-box-1 .content-box .features{
+	font-size: 1em;
+}
+
+.promo-1 .info-box-1 .footer-box {
+	display: flex;
+	flex-direction: row;
+	margin-top: 1rem;
+}
